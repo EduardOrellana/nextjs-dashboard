@@ -36,5 +36,12 @@
   },
   "engines": {
     "node": ">=18"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "bcrypt",
+      "bufferutil",
+      "utf-8-validate"
+    ]
   }
 }
