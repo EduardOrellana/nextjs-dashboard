@@ -125,6 +125,7 @@ async function seedCustomers(client) {
   }
 }
 
+
 async function seedRevenue(client) {
   try {
     // Create the "revenue" table if it doesn't exist
